@@ -1,0 +1,4 @@
+name = "onboarding-verify"
+description = "Create the scripted proof that the app works."
+keywords = ["verify script", "how do we know it works", "create verification", "prove the app works"]
+steps = ["verify-create"]

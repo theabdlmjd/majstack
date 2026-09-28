@@ -1,0 +1,12 @@
+[package]
+name = "majstack-graph"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Task DAG: dependencies, scheduling, hierarchy, rollup, cycle detection."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-state.workspace = true
+serde.workspace = true

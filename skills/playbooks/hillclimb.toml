@@ -1,0 +1,4 @@
+name = "hillclimb"
+description = "Iteratively improve one metric toward a target."
+keywords = ["hillclimb", "improve metric", "increase score", "reduce time to", "raise accuracy", "target of"]
+steps = ["hillclimb", "benchmark-check"]

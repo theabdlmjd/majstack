@@ -1,0 +1,4 @@
+name = "trace-forensics"
+description = "Diagnose a captured profile, trace or dump."
+keywords = ["cpuprofile", "trace file", "heap snapshot", "spindump", "flamegraph", "core dump"]
+steps = ["forensics-trace", "perf"]

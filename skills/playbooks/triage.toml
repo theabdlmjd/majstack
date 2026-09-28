@@ -1,0 +1,4 @@
+name = "triage"
+description = "Triage a bug report, reproduce it, fix with evidence."
+keywords = ["bug report", "issue report", "user reported", "customer says", "ticket"]
+steps = ["triage", "review"]

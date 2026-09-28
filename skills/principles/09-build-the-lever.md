@@ -1,0 +1,1 @@
+- **build-the-lever** (core): For non-trivial work, build the tool that does or proves it (script, codemod, generator). The tool is the artifact a reviewer can rerun.

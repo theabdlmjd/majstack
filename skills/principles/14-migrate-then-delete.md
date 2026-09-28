@@ -1,0 +1,1 @@
+- **migrate-then-delete** (architecture): Migrate callers and delete the old API in the same wave. No lingering compatibility layers.

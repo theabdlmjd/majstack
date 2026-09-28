@@ -1,0 +1,12 @@
+[package]
+name = "majstack-policy"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Permission levels, command guards, edit boundaries, untrusted input."
+
+[dependencies]
+majstack-core.workspace = true
+regex.workspace = true
+serde.workspace = true

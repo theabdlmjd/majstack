@@ -1,0 +1,4 @@
+name = "qa"
+description = "Test in a real browser and fix what is found."
+keywords = ["qa", "test the site", "test this url", "click through", "staging", "smoke test"]
+steps = ["qa"]

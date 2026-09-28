@@ -1,0 +1,1 @@
+- **model-the-domain** (architecture): Encode the domain in structure, not scattered conditionals.

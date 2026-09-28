@@ -1,0 +1,14 @@
+[package]
+name = "majstack-state"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "SQLite persistence, migrations, repositories, and crash recovery."
+
+[dependencies]
+majstack-core.workspace = true
+rusqlite.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true

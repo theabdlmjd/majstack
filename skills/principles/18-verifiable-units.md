@@ -1,0 +1,1 @@
+- **verifiable-units** (verification): Break multi-step work into small units that each end in a verified state. Check each before the next.

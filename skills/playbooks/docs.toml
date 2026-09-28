@@ -1,0 +1,4 @@
+name = "docs"
+description = "Update and generate documentation."
+keywords = ["docs", "documentation", "readme", "changelog", "tutorial", "how-to guide"]
+steps = ["doc-release", "doc-generate", "tech-writing"]

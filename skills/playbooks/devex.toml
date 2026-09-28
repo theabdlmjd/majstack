@@ -1,0 +1,4 @@
+name = "devex"
+description = "Developer-experience plan and live audit."
+keywords = ["developer experience", "onboarding", "sdk", "cli ux", "api ergonomics", "getting started"]
+steps = ["devex-plan-review", "devex-review"]

@@ -1,0 +1,4 @@
+name = "feature"
+description = "New or changed behavior, built from a named data shape."
+keywords = ["add", "build", "implement", "create", "feature", "support for", "new endpoint"]
+steps = ["plan", "architect", "@loop", "review", "doc-release"]

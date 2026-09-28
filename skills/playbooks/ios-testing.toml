@@ -1,0 +1,4 @@
+name = "ios-testing"
+description = "iOS simulator QA and fix loop."
+keywords = ["ios", "iphone", "simulator", "xcode", "swiftui"]
+steps = ["ios-qa", "ios-fix", "ios-design-review"]

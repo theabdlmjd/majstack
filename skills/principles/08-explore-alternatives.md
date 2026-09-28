@@ -1,0 +1,1 @@
+- **explore-alternatives** (core): For consequential designs, build two or three competing options and compare them before committing.

@@ -1,0 +1,1 @@
+- **separate-before-serializing** (architecture): Remove sharing first. Serialize access only when one shared writer is a real invariant.

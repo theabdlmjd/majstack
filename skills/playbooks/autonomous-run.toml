@@ -1,0 +1,4 @@
+name = "autonomous-run"
+description = "Drive a long task to completion without stopping."
+keywords = ["overnight", "while i sleep", "going to bed", "don't stop", "keep going", "autonomous", "until done", "stepping away"]
+steps = ["plan", "architect", "@loop", "review", "security-audit", "doc-release", "ship"]

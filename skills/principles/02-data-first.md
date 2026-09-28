@@ -1,0 +1,1 @@
+- **data-first** (core): Choose core types and data structures before logic. Get the shape right and the code becomes obvious.

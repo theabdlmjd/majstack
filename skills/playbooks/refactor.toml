@@ -1,0 +1,4 @@
+name = "refactor"
+description = "Behavior-preserving change to structure."
+keywords = ["refactor", "restructure", "clean up", "rename", "extract", "simplify", "migrate callers"]
+steps = ["blast-radius", "refactor", "review"]

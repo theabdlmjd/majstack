@@ -1,0 +1,69 @@
+# Majstack configuration. Edit freely.
+
+[run]
+agent = "claude"            # claude | codex | opencode | t3code | antigravity | hermes | any you define
+verify = ""                 # shell command that must exit 0 (else .majstack/verify.sh is used if present)
+max_iterations = 0          # 0 = unlimited
+max_attempts_per_task = 0   # 0 = unlimited retries per task
+timeout_seconds = 0         # 0 = no timeout per agent call
+commit = true               # one commit per verified task: "feat: [id] - title"
+review = true               # reviewer must approve each task
+branching = true            # work on the feature branch named in tasks.json
+swarm_workers = 3
+babysit_rounds = 0          # 0 = watch the PR until green
+pause_between_seconds = 0
+
+[pipeline]
+plan = ["plan", "architect"]
+per_task = ["build", "review"]
+finish = ["security-audit", "doc-release"]
+
+[browser]
+ui_check = true             # tasks flagged ui:true are verified in a real browser
+
+[release]
+gate = ["verify", "review"]
+deploy_cmd = ""
+canary_url = ""
+canary_seconds = 60
+
+# Optional: route individual skills to different agents or models.
+# [routing.review]
+# agent = "codex"
+# [routing.build]
+# agent = "claude"
+# model = "your-model-id"
+
+# Optional: agents used by interrogate, second-opinion and arena.
+[panel]
+agents = []
+
+[agents.claude]
+mode = "exec"
+cmd = ["claude", "-p", "{prompt}"]
+model_args = ["--model", "{model}"]
+instructions_file = "CLAUDE.md"
+
+[agents.codex]
+mode = "exec"
+cmd = ["codex", "exec", "{prompt}"]
+model_args = ["--model", "{model}"]
+instructions_file = "AGENTS.md"
+
+[agents.opencode]
+mode = "exec"
+cmd = ["opencode", "run", "{prompt}"]
+model_args = ["--model", "{model}"]
+instructions_file = "AGENTS.md"
+
+[agents.t3code]
+mode = "handoff"
+instructions_file = "AGENTS.md"
+
+[agents.antigravity]
+mode = "handoff"
+instructions_file = "AGENTS.md"
+
+[agents.hermes]
+mode = "handoff"            # set mode = "exec" and cmd = [...] if your setup has a CLI
+instructions_file = "AGENTS.md"

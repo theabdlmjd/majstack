@@ -1,0 +1,4 @@
+name = "autopilot-full"
+description = "Run independent tasks to merged with parallel workers."
+keywords = ["autopilot", "run all", "independent prs", "in parallel"]
+steps = ["plan", "@swarm", "review", "ship", "@babysit"]

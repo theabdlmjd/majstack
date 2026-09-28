@@ -1,0 +1,13 @@
+[package]
+name = "majstack-verification"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Verification runner registry and review findings."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-execution.workspace = true
+serde.workspace = true
+serde_json.workspace = true

@@ -1,0 +1,13 @@
+[package]
+name = "majstack-skills"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Skill, playbook, and principle registry with composition."
+
+[dependencies]
+majstack-core.workspace = true
+serde.workspace = true
+toml.workspace = true
+include_dir.workspace = true

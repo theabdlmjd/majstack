@@ -1,0 +1,1 @@
+- **guard-the-boundary** (architecture): Validate at system boundaries (CLI, config, network, external APIs). Trust internal types and keep business logic in pure functions.

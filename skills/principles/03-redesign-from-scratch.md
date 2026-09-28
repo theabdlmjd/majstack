@@ -1,0 +1,1 @@
+- **redesign-from-scratch** (core): When a new requirement arrives, design as if it had been foundational instead of bolting it on.

@@ -1,0 +1,4 @@
+name = "prototype"
+description = "Throwaway sketch to settle a design or empirical question."
+keywords = ["prototype", "spike", "proof of concept", "poc", "try two approaches", "compare approaches"]
+steps = ["prototype"]

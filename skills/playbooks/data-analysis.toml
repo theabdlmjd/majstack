@@ -1,0 +1,4 @@
+name = "data-analysis"
+description = "Clean, analyze, and report on a dataset with a verifiable output."
+keywords = ["dataset", "csv", "analyze data", "clean data", "data analysis", "spreadsheet", "metrics", "parse data"]
+steps = ["plan", "@loop", "benchmark-check", "review"]

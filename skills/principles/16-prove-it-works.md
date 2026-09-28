@@ -1,0 +1,1 @@
+- **prove-it-works** (verification): Before declaring done, verify against the real artifact: run the feature, read the actual value, inspect the diff. A compile or a self-report is not proof.

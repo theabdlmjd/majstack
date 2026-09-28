@@ -1,0 +1,4 @@
+name = "visual-parity"
+description = "Pixel-exact UI equivalence between two implementations."
+keywords = ["pixel", "match the design", "looks different", "spacing is off", "parity", "match the screenshot"]
+steps = ["visual-parity", "design-review"]

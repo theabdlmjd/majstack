@@ -1,0 +1,1 @@
+- **experience-first** (core): Choose user experience over implementation convenience. Fewer polished features beat many rough ones.

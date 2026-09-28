@@ -1,0 +1,14 @@
+[package]
+name = "majstack-logging"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Structured logging and redaction for majstack."
+
+[dependencies]
+majstack-core.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+regex.workspace = true
+serde_json.workspace = true

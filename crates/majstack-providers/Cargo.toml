@@ -1,0 +1,15 @@
+[package]
+name = "majstack-providers"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Provider interface, CLI adapters, registry, and model strategy."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-config.workspace = true
+majstack-execution.workspace = true
+majstack-telemetry.workspace = true
+serde.workspace = true
+serde_json.workspace = true

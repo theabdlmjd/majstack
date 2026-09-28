@@ -1,0 +1,4 @@
+name = "multi-phase-plan"
+description = "Work that spans phases or stacked PRs."
+keywords = ["phases", "multi-phase", "roadmap", "migration plan", "milestones"]
+steps = ["phase-plan", "eng-review"]

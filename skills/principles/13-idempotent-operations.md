@@ -1,0 +1,1 @@
+- **idempotent-operations** (architecture): Operations must converge to the same end state regardless of partial earlier runs.

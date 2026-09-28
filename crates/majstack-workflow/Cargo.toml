@@ -1,0 +1,12 @@
+[package]
+name = "majstack-workflow"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Workflow registry and autonomous router."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-skills.workspace = true
+serde.workspace = true

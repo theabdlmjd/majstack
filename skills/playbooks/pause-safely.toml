@@ -1,0 +1,4 @@
+name = "pause-safely"
+description = "Suspend in-flight work cleanly."
+keywords = ["pause", "stop for now", "suspend", "save my place"]
+steps = ["handoff"]

@@ -1,0 +1,5 @@
+name = "bugfix"
+description = "Reproduce a defect, root-cause it, fix with evidence."
+keywords = ["bug", "fix", "broken", "crash", "error", "regression", "wrong", "fails", "failing", "doesn't work", "not working"]
+steps = ["investigate", "debug", "@interrogate", "@gate"]
+gate = ["verify"]

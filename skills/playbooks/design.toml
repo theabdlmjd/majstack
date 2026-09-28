@@ -1,0 +1,4 @@
+name = "design"
+description = "Design system, variants, then production HTML."
+keywords = ["design system", "mockup", "landing page", "redesign", "variants", "ui design"]
+steps = ["design-consult", "design-shotgun", "design-html", "design-review"]

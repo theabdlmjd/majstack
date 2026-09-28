@@ -1,0 +1,4 @@
+name = "eval"
+description = "Blinded test of how a prompt or skill change affects behavior."
+keywords = ["eval", "evaluate prompt", "compare prompts", "benchmark prompt"]
+steps = ["evals"]

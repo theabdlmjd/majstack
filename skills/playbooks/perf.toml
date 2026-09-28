@@ -1,0 +1,4 @@
+name = "perf"
+description = "Trace measured slowness and improve it against a baseline."
+keywords = ["slow", "performance", "latency", "speed up", "optimize", "memory usage", "perf"]
+steps = ["perf", "benchmark-check", "review"]

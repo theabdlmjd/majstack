@@ -1,0 +1,17 @@
+[run]
+agent = "fake"
+verify = ""
+max_iterations = 0
+max_attempts_per_task = 0
+timeout_seconds = 0
+commit = true
+review = true
+branching = true
+
+[permissions]
+allow_dangerous = false
+
+[agents.fake]
+mode = "exec"
+cmd = ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "fake-agent.ps1"]
+instructions_file = "AGENTS.md"

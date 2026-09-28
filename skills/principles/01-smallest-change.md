@@ -1,0 +1,1 @@
+- **smallest-change** (core): Bias toward deletion. Solve the problem with the smallest change, and remove what is no longer needed.

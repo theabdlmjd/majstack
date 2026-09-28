@@ -1,0 +1,4 @@
+name = "retrospective"
+description = "Retro from git data plus lessons captured."
+keywords = ["retro", "retrospective", "what did we ship", "weekly review"]
+steps = ["retro", "reflect", "learn"]

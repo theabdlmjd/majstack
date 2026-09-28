@@ -1,0 +1,4 @@
+name = "worktree-cleanup"
+description = "Reclaim disk from merged or abandoned worktrees."
+keywords = ["clean up worktrees", "prune worktrees", "free disk", "stale branches"]
+steps = ["worktree-cleanup"]

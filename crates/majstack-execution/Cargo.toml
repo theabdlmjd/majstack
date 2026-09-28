@@ -1,0 +1,13 @@
+[package]
+name = "majstack-execution"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Process execution, workspaces, and environment doctor checks."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-config.workspace = true
+which.workspace = true
+serde.workspace = true

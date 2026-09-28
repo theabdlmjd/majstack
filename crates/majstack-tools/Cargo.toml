@@ -1,0 +1,18 @@
+[package]
+name = "majstack-tools"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Unified, auditable tool registry."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-state.workspace = true
+majstack-policy.workspace = true
+majstack-execution.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+regex.workspace = true
+walkdir.workspace = true
+reqwest.workspace = true

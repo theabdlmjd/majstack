@@ -1,0 +1,30 @@
+[package]
+name = "majstack-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Command line interface for the majstack autonomous software engineer."
+
+[[bin]]
+name = "majstack"
+path = "src/main.rs"
+
+[dependencies]
+majstack-core.workspace = true
+majstack-config.workspace = true
+majstack-state.workspace = true
+majstack-orchestration.workspace = true
+majstack-skills.workspace = true
+majstack-workflow.workspace = true
+majstack-evidence.workspace = true
+majstack-execution.workspace = true
+majstack-git.workspace = true
+majstack-graph.workspace = true
+majstack-browser.workspace = true
+majstack-github.workspace = true
+majstack-tools.workspace = true
+majstack-typed.workspace = true
+majstack-agents.workspace = true
+clap.workspace = true
+serde_json.workspace = true

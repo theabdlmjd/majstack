@@ -1,0 +1,4 @@
+name = "autopilot-stack"
+description = "Build and verify one linear stack of changes for the operator to review."
+keywords = ["stack of prs", "stacked", "linear stack"]
+steps = ["phase-plan", "@loop", "review"]

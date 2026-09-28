@@ -1,0 +1,12 @@
+[package]
+name = "majstack-memory"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Knowledge, journal, and budgeted context assembly."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-state.workspace = true
+majstack-telemetry.workspace = true

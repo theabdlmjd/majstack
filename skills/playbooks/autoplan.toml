@@ -1,0 +1,4 @@
+name = "autoplan"
+description = "Fully reviewed plan: strategy, design, developer experience, engineering."
+keywords = ["autoplan", "review the plan", "plan review", "plan this", "plan before building"]
+steps = ["vision", "design-plan-review", "devex-plan-review", "eng-review"]

@@ -1,0 +1,1 @@
+- **encode-in-structure** (meta): Encode lessons as a lint, check, type, or script rather than more prose.

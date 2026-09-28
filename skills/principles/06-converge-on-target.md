@@ -1,0 +1,1 @@
+- **converge-on-target** (core): In planned migrations, move straight to the target architecture. Do not build throwaway compatibility scaffolding.

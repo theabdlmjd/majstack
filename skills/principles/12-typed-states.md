@@ -1,0 +1,1 @@
+- **typed-states** (architecture): Make illegal states unrepresentable, parse external data once at the edge, never lie to the compiler, and exhaust variants.

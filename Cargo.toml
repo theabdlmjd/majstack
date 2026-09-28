@@ -1,0 +1,71 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "apps/*"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+license = "MIT"
+authors = ["Abdulmajeed Amzat"]
+description = "Autonomous AI engineer: goal in, verified results out."
+
+[workspace.dependencies]
+majstack-core = { path = "crates/majstack-core" }
+majstack-config = { path = "crates/majstack-config" }
+majstack-logging = { path = "crates/majstack-logging" }
+majstack-telemetry = { path = "crates/majstack-telemetry" }
+majstack-state = { path = "crates/majstack-state" }
+majstack-events = { path = "crates/majstack-events" }
+majstack-graph = { path = "crates/majstack-graph" }
+majstack-policy = { path = "crates/majstack-policy" }
+majstack-memory = { path = "crates/majstack-memory" }
+majstack-evidence = { path = "crates/majstack-evidence" }
+majstack-providers = { path = "crates/majstack-providers" }
+majstack-tools = { path = "crates/majstack-tools" }
+majstack-execution = { path = "crates/majstack-execution" }
+majstack-git = { path = "crates/majstack-git" }
+majstack-github = { path = "crates/majstack-github" }
+majstack-browser = { path = "crates/majstack-browser" }
+majstack-verification = { path = "crates/majstack-verification" }
+majstack-skills = { path = "crates/majstack-skills" }
+majstack-workflow = { path = "crates/majstack-workflow" }
+majstack-agents = { path = "crates/majstack-agents" }
+majstack-recovery = { path = "crates/majstack-recovery" }
+majstack-typed = { path = "crates/majstack-typed" }
+majstack-orchestration = { path = "crates/majstack-orchestration" }
+majstack-testing = { path = "crates/majstack-testing" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+toml = "0.8"
+rusqlite = { version = "0.32", features = ["bundled", "serde_json", "chrono"] }
+anyhow = "1"
+thiserror = "2"
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt", "json"] }
+sha2 = "0.10"
+regex = "1"
+which = "7"
+walkdir = "2"
+tempfile = "3"
+dirs = "6"
+glob = "0.3"
+crossbeam-channel = "0.5"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls", "gzip"] }
+clap = { version = "4", features = ["derive", "env"] }
+ctrlc = "3"
+tungstenite = { version = "0.21", default-features = false, features = ["handshake"] }
+base64 = "0.22"
+include_dir = "0.7"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 0
+debug = 1

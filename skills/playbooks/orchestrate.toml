@@ -1,0 +1,4 @@
+name = "orchestrate"
+description = "A standing multi-day project run by one coordinator with parallel workers."
+keywords = ["orchestrate", "coordinate", "multi-day", "many prs", "fleet of", "standing project"]
+steps = ["phase-plan", "architect", "@swarm", "review", "@gate"]

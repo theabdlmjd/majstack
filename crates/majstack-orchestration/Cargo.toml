@@ -1,0 +1,28 @@
+[package]
+name = "majstack-orchestration"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Run state machine, DAG scheduler, fresh-context executor, recovery."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-config.workspace = true
+majstack-state.workspace = true
+majstack-events.workspace = true
+majstack-graph.workspace = true
+majstack-policy.workspace = true
+majstack-memory.workspace = true
+majstack-evidence.workspace = true
+majstack-providers.workspace = true
+majstack-verification.workspace = true
+majstack-git.workspace = true
+majstack-skills.workspace = true
+majstack-workflow.workspace = true
+majstack-recovery.workspace = true
+majstack-typed.workspace = true
+majstack-agents.workspace = true
+majstack-execution.workspace = true
+serde.workspace = true
+serde_json.workspace = true

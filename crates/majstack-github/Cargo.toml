@@ -1,0 +1,14 @@
+[package]
+name = "majstack-github"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "GitHub integration: issues, pull requests, reviews, checks."
+
+[dependencies]
+majstack-core.workspace = true
+majstack-execution.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+reqwest.workspace = true

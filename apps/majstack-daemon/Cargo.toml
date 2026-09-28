@@ -1,0 +1,18 @@
+[package]
+name = "majstack-daemon"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "majstackd: long-running daemon that processes queued goals."
+
+[[bin]]
+name = "majstackd"
+path = "src/main.rs"
+
+[dependencies]
+majstack-core.workspace = true
+majstack-config.workspace = true
+majstack-orchestration.workspace = true
+clap.workspace = true
+ctrlc.workspace = true

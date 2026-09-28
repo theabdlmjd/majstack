@@ -1,0 +1,1 @@
+- **subtract-first** (core): Remove dead weight, redundant checks and stubs before adding on top of a simpler base.

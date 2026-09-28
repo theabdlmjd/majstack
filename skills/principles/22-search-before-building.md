@@ -1,0 +1,1 @@
+- **search-before-building** (meta): Look for existing code, libraries and prior decisions before writing something new.

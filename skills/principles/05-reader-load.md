@@ -1,0 +1,1 @@
+- **reader-load** (core): Count layers between question and answer and hidden state in the reader's head. Collapse one-caller wrappers and shrink mutable scope.

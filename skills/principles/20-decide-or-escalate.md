@@ -1,0 +1,1 @@
+- **decide-or-escalate** (delegation): Proceed on reversible choices, log them, and let the human correct afterwards. Stop and ask only for irreversible or costly-to-reverse architectural ambiguity.

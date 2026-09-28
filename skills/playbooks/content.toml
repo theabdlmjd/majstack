@@ -1,0 +1,4 @@
+name = "content"
+description = "Produce technical or product writing from source material."
+keywords = ["write", "blog post", "launch post", "article", "copy", "announcement", "docs page", "draft"]
+steps = ["plan", "@loop", "tech-writing", "review"]

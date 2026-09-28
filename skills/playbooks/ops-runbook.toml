@@ -1,0 +1,4 @@
+name = "ops-runbook"
+description = "Write and validate an operational runbook or migration procedure."
+keywords = ["runbook", "deploy procedure", "migration", "incident", "operations", "on-call", "rollback", "postmortem"]
+steps = ["plan", "@loop", "health-check", "review"]

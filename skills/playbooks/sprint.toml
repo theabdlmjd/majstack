@@ -1,0 +1,4 @@
+name = "sprint"
+description = "Full sprint: think, plan, build, review, test, ship, reflect."
+keywords = ["sprint", "end to end", "full pipeline", "idea to production", "from scratch"]
+steps = ["discover", "vision", "eng-review", "@loop", "review", "security-audit", "qa", "ship", "@gate", "pr-open", "retro"]

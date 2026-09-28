@@ -1,0 +1,4 @@
+name = "ideate"
+description = "Pressure-test an idea and produce a spec."
+keywords = ["idea", "should we build", "is this a good idea", "brainstorm", "what should i build", "office hours"]
+steps = ["discover", "vision", "spec"]

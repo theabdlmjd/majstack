@@ -1,0 +1,4 @@
+name = "session-pickup"
+description = "Resume or take over prior in-flight work."
+keywords = ["pick up", "resume", "take over", "continue where", "previous session", "handoff"]
+steps = ["recall", "pickup"]

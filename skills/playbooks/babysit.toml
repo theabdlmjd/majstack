@@ -1,0 +1,4 @@
+name = "babysit"
+description = "Drive a PR to merge-ready: conflicts, review threads, CI."
+keywords = ["babysit", "check on pr", "ci is red", "review comments", "merge conflict", "get this pr green"]
+steps = ["@babysit"]

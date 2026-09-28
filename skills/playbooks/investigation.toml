@@ -1,0 +1,4 @@
+name = "investigation"
+description = "Read-only question: how does X work, why was Y built this way."
+keywords = ["how does", "how do", "why was", "why is", "are we sure", "explain", "investigate why", "what does"]
+steps = ["recall", "how", "why"]

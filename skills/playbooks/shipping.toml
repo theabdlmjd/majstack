@@ -1,0 +1,5 @@
+name = "shipping"
+description = "Independently verify a green change and land it."
+keywords = ["ship", "land", "merge it", "release this", "open a pr", "push it"]
+steps = ["ship", "review", "security-audit", "@gate", "pr-open", "@land"]
+gate = ["verify", "review"]

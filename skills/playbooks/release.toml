@@ -1,0 +1,5 @@
+name = "release"
+description = "Docs, ship, land, deploy, and watch production."
+keywords = ["release", "deploy", "go live", "production", "rollout"]
+steps = ["doc-release", "ship", "@gate", "@land", "canary-watch"]
+gate = ["verify", "review"]

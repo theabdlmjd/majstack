@@ -1,0 +1,4 @@
+name = "runtime-forensics"
+description = "Diagnose a live symptom from instrumentation."
+keywords = ["leak", "idle cpu", "spin", "glitch", "flicker", "hang", "freezes"]
+steps = ["forensics-runtime", "debug", "review"]

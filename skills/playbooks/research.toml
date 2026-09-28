@@ -1,0 +1,4 @@
+name = "research"
+description = "Investigate a question and produce a written, sourced answer."
+keywords = ["research", "compare", "investigate", "summarize", "study", "find out", "report on", "evaluate options"]
+steps = ["plan", "@loop", "review", "tech-writing"]

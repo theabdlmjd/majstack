@@ -1,0 +1,1 @@
+- **guard-the-context** (delegation): Send bulk reading and noisy work to subagents or files. Keep summaries, not raw payloads, in the main thread.

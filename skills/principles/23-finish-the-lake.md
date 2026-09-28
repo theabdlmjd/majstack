@@ -1,0 +1,1 @@
+- **finish-the-lake** (meta): Within the agreed scope, do the complete job: tests, docs, edge cases. Do not expand into unrelated cleanup.

@@ -1,0 +1,4 @@
+name = "authoring-a-skill"
+description = "Write or edit a skill."
+keywords = ["write a skill", "new skill", "edit skill", "skillify", "author skill"]
+steps = ["author-skill"]

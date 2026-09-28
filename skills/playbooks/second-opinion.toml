@@ -1,0 +1,4 @@
+name = "second-opinion"
+description = "Independent review from a different model plus adversarial lenses."
+keywords = ["second opinion", "another model", "challenge this", "independent review"]
+steps = ["second-opinion", "@interrogate"]
