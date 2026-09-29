@@ -1,14 +1,24 @@
 # majstack
 
-**An autonomous AI engineer — as a tool, not a model.** majstack runs locally and orchestrates
-the AI coding agents and models you already use. Give it a goal; it works out how to
-investigate, plan, decompose, build, test, review, debug, verify, retry, re-plan, and finish the
-job. No coding required and no workflow to choose — for developers and non-developers alike.
+**An autonomous AI engineer — as a tool, not a model.**
 
-It has no model of its own. It drives your agent CLIs and endpoints (Claude Code, Codex,
-OpenCode, or any OpenAI-compatible API) and turns a goal into verified results, with real
-state, real execution, real verification, and real evidence. Think "orchestration tool that acts
-like an engineer," not "another AI model."
+[![CI](https://github.com/theabdlmjd/majstack/actions/workflows/ci.yml/badge.svg)](https://github.com/theabdlmjd/majstack/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Rust](https://img.shields.io/badge/rust-stable-orange.svg)](rust-toolchain.toml)
+
+Give it a goal. You stay at the goal level — majstack works out how to investigate,
+plan, decompose, build, test, review, debug, verify, retry, re-plan, and finish the
+job. No workflow to choose and no coding required, for developers and non-developers
+alike.
+
+majstack runs locally and orchestrates the AI coding agents and models you already
+use. It has no model of its own: it drives your agent CLIs and endpoints (Claude Code,
+Codex, OpenCode, or any OpenAI-compatible API) and turns a goal into verified results,
+with real state, real execution, real verification, and real evidence. Think
+"orchestration tool that acts like an engineer," not "another AI model."
+
+<p align="center"><img src="docs/architecture/images/sequence-v3.png" alt="One autonomous run"></p>
+<p align="center"><em>One autonomous run: a single goal becomes a planned, executed, verified outcome.</em></p>
 
 ## Install
 
@@ -47,6 +57,20 @@ majstack logs
 `majstack init` detects `claude`, `codex`, or `opencode` on your PATH and writes it into
 `.majstack/config.toml`. Any CLI works via `[agents.*]`.
 
+## Why majstack
+
+- **It does the work, not just the chat.** You give a goal; the engine investigates,
+  plans, builds, tests, reviews, and verifies. The agent CLIs you already have do the
+  actual edits — driven end to end by a real state machine.
+- **Real state, not a long conversation.** Every run, task, attempt, decision, and piece
+  of evidence is persisted in SQLite, so it survives restarts and resumes where it left
+  off.
+- **Verification is built in.** Nothing is "done" until checks pass and evidence is
+  recorded.
+- **Bring your own agent.** Claude Code, Codex, OpenCode, or any OpenAI-compatible
+  endpoint. No lock-in, and no model of its own.
+- **Local and private.** No telemetry, no server, and no API key required.
+
 ## How it works
 
 <p align="center"><img src="docs/architecture/images/pipeline-v3.png" alt="pipeline"></p>
@@ -61,10 +85,6 @@ rebuilt from a token budget.
 ## Components
 
 <p align="center"><img src="docs/architecture/images/components-v3.png" alt="components"></p>
-
-## One autonomous run
-
-<p align="center"><img src="docs/architecture/images/sequence-v3.png" alt="sequence"></p>
 
 ## Data model
 
@@ -103,25 +123,25 @@ Bundled non-code workflows: `research`, `data-analysis`, `ops-runbook`, `content
 
 ## Capabilities
 
-- **Autonomy** â€” event-driven run state machine, fresh context per iteration, retries with
+- **Autonomy** — event-driven run state machine, fresh context per iteration, retries with
   limits, pause and resume, crash recovery.
-- **Planning** â€” spec and plan artifacts per feature, a real task DAG with dependencies, atomic
+- **Planning** — spec and plan artifacts per feature, a real task DAG with dependencies, atomic
   claims, automatic unblocking, parent roll-up, and phase-skip resume.
-- **Execution** â€” any agent CLI, model strategies, role-based routing, and true parallelism:
+- **Execution** — any agent CLI, model strategies, role-based routing, and true parallelism:
   swarm in isolated worktrees, arena with competing contestants, and review panels.
-- **Verification** â€” typecheck, lint, tests, and build with recorded evidence, content
+- **Verification** — typecheck, lint, tests, and build with recorded evidence, content
   fingerprints, and independent review verdicts.
-- **Recovery** â€” failure classification, strategy adaptation, model or provider switching,
+- **Recovery** — failure classification, strategy adaptation, model or provider switching,
   scope reduction, re-planning, and escalation.
-- **Memory** â€” knowledge search, a per-iteration run journal, a decision trail, and a
+- **Memory** — knowledge search, a per-iteration run journal, a decision trail, and a
   token-budgeted context builder.
-- **Principles** â€” machine-readable rules scoped to each stage, with traceable invocations.
-- **Safety** â€” an auditable tool registry, five permission levels, destructive-command guards,
+- **Principles** — machine-readable rules scoped to each stage, with traceable invocations.
+- **Safety** — an auditable tool registry, five permission levels, destructive-command guards,
   edit boundaries, untrusted-input handling, and secret redaction. No telemetry.
-- **Git and GitHub** â€” branches, commits, worktrees, merges, issues, pull requests, checks, and
+- **Git and GitHub** — branches, commits, worktrees, merges, issues, pull requests, checks, and
   babysitting.
-- **Browser** â€” a real Chrome DevTools Protocol driver with screenshots and console capture.
-- **Beyond coding** â€” research, data, operations, documentation, and design workflows with the
+- **Browser** — a real Chrome DevTools Protocol driver with screenshots and console capture.
+- **Beyond coding** — research, data, operations, documentation, and design workflows with the
   same verification and evidence.
 
 ## Commands
